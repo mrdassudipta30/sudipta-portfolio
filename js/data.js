@@ -1,0 +1,142 @@
+const PORTFOLIO_DATA = {
+  skills: {
+    core: ['Flutter', 'Dart', 'Firebase', 'GetX', 'Git', 'C', 'Java', 'Python'],
+    learning: ['Python FastAPI', 'LangChain', 'LangGraph'],
+    languages: ['Bengali', 'English', 'Hindi'],
+  },
+
+  projects: [
+    {
+      id: 'mother-tongue',
+      name: 'Mother Tongue with Trio',
+      category: 'live',
+      tags: ['Flutter', 'Education', 'Kids'],
+      description:
+        "A kids' language learning app for mastering the Shona language through interactive lessons and engaging content.",
+      ios: 'https://apps.apple.com/in/app/mothers-tongue-with-the-trio/id6478108173',
+      android: 'https://play.google.com/store/apps/details?id=com.mt.pt',
+      gradient: 'from-amber-500/20 to-orange-500/20',
+      icon: '🌍',
+    },
+    {
+      id: 'lawgic',
+      name: 'Lawgic',
+      category: 'live',
+      tags: ['Flutter', 'Legal', 'Kuwait'],
+      description:
+        'Connects users with certified lawyers in Kuwait for secure legal help—submit cases, receive offers, and chat in one app.',
+      ios: 'https://apps.apple.com/us/app/lawgic-%D8%A7%D9%84%D9%88%D8%AC%D9%83/id6608980534',
+      android: 'https://play.google.com/store/apps/details?id=com.Lawgic.app',
+      gradient: 'from-blue-500/20 to-indigo-500/20',
+      icon: '⚖️',
+    },
+    {
+      id: 'family-bond',
+      name: 'Family Bond',
+      category: 'live',
+      tags: ['Flutter', 'Social', 'Family'],
+      description:
+        'Visualizes family hierarchy with social features, events, chat, and SOS broadcasting for emergency help.',
+      ios: 'https://apps.apple.com/us/app/familybond/id6451258484',
+      android: 'https://play.google.com/store/apps/details?id=com.familybond.app',
+      gradient: 'from-rose-500/20 to-pink-500/20',
+      icon: '👨‍👩‍👧‍👦',
+    },
+    {
+      id: 'og-app',
+      name: 'OG — Job Portal',
+      category: 'live',
+      tags: ['Flutter', 'AWS Cognito', 'WebSockets'],
+      description:
+        'Job portal with recruiter posts, candidate applications, and interviewer feedback using AWS Cognito, WebSockets, and FCM.',
+      ios: 'https://apps.apple.com/in/app/ogha/id6738427936',
+      android: 'https://play.google.com/store/apps/details?id=app.og.com',
+      gradient: 'from-violet-500/20 to-purple-500/20',
+      icon: '💼',
+    },
+    {
+      id: 'skill-bridges',
+      name: 'Skill Bridges',
+      category: 'live',
+      tags: ['Flutter', 'Firebase', 'MVP'],
+      description:
+        'MVP demonstrating real-time chat with Firebase Firestore and essential social features.',
+      ios: 'https://apps.apple.com/us/app/skill-bridges/id6741852492',
+      android: null,
+      gradient: 'from-teal-500/20 to-cyan-500/20',
+      icon: '🌉',
+    },
+    {
+      id: 'bugfit',
+      name: 'Bugfit',
+      category: 'live',
+      tags: ['Flutter', 'Fitness', 'Video'],
+      description:
+        'Fitness platform where trainers upload workout videos and gym members follow structured training programs.',
+      ios: null,
+      android: null,
+      gradient: 'from-lime-500/20 to-green-500/20',
+      icon: '💪',
+    },
+    {
+      id: 'success-app',
+      name: 'Success App',
+      category: 'live',
+      tags: ['Flutter', 'Firebase', 'Social'],
+      description:
+        'Social platform to post quotes, like, comment, follow users, and chat powered by Firebase Firestore.',
+      ios: null,
+      android: null,
+      gradient: 'from-yellow-500/20 to-amber-500/20',
+      icon: '✨',
+    },
+    {
+      id: 'voice-assistant',
+      name: 'Voice Assistant',
+      category: 'ai',
+      tags: ['GPT-4', 'Voice', 'PDF'],
+      description:
+        'AI assistant that converts voice to text, answers from a knowledge base, and generates formatted PDF reports with GPT-4.',
+      ios: null,
+      android: null,
+      gradient: 'from-cyan-500/20 to-sky-500/20',
+      icon: '🎙️',
+    },
+    {
+      id: 'simmer',
+      name: 'Simmer — Food Dating',
+      category: 'ai',
+      tags: ['Flutter', 'PostgreSQL', 'Firebase'],
+      description:
+        'Social food-dating platform to connect, chat, and share dining experiences with Firebase real-time chat and PostgreSQL backend.',
+      ios: null,
+      android: null,
+      gradient: 'from-red-500/20 to-orange-500/20',
+      icon: '🍽️',
+    },
+    {
+      id: 'rae-ai',
+      name: 'Rae AI',
+      category: 'ai',
+      tags: ['LLM', 'Socket.IO', 'Chat'],
+      description:
+        'Relationship guide powered by a custom GPT-4 fine-tuned LLM with real-time single & group chat, deep linking, and email auth.',
+      ios: null,
+      android: null,
+      gradient: 'from-fuchsia-500/20 to-pink-500/20',
+      icon: '💬',
+    },
+    {
+      id: 'holotable',
+      name: 'Holotable AI',
+      category: 'ai',
+      tags: ['GPT', 'Gaming', 'Strategy'],
+      description:
+        'AI assistant for Star Wars: Galaxy of Heroes—strategy guidance, character details, team composition, and real-time AI chat.',
+      ios: null,
+      android: null,
+      gradient: 'from-indigo-500/20 to-blue-500/20',
+      icon: '🚀',
+    },
+  ],
+};
