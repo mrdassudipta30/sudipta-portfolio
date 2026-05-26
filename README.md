@@ -11,7 +11,7 @@ sudipta-portfolio/
 ├── js/
 │   ├── data.js         # Projects, skills (edit here)
 │   └── main.js         # Scroll reveal, filters, nav
-└── Sudipta Das-1.pdf   # Downloadable CV
+└── Sudipta_Das.pdf     # Downloadable CV
 ```
 
 ## Run locally
@@ -33,6 +33,7 @@ python3 -m http.server 8080
 ## Changelog
 
 ### 2026-05-26 — v1.0.0
-- Initial portfolio: hero, about, 11 projects, experience, education, skills, contact
+- Added Qahveen (AI coffee reading — App Store & Play Store)
+- Initial portfolio: hero, about, projects, experience, education, skills, contact
 - Scroll animations, project filters (All / Live / AI), mobile menu
 - CV download link

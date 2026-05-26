@@ -7,6 +7,18 @@ const PORTFOLIO_DATA = {
 
   projects: [
     {
+      id: 'qahveen',
+      name: 'Qahveen',
+      category: 'ai',
+      tags: ['Flutter', 'AI', 'Image Processing', 'Firebase', 'IAP'],
+      description:
+        'AI-powered coffee cup reading for Android & iOS—upload cup images for personalized readings via image analysis and conversational AI. Includes secure auth, multilingual support, subscriptions, in-app purchases, and real-time processing with Firebase and scalable backend workflows.',
+      ios: 'https://apps.apple.com/in/app/qahveen/id6747775483',
+      android: 'https://play.google.com/store/apps/details?id=com.qahween.app',
+      gradient: 'from-amber-600/20 to-yellow-700/20',
+      icon: '☕',
+    },
+    {
       id: 'mother-tongue',
       name: 'Mother Tongue with Trio',
       category: 'live',
